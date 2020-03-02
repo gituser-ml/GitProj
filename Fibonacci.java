@@ -13,7 +13,7 @@ public class Fibonacci {
       while (n <= nMax) {  // n starts from 3
             // n = 3, 4, 5, ..., nMax
          // Compute F(n), print it and add to sum
-         ......
+    
          // Increment the index n and shift the numbers for the next iteration
          ++n;
          fnMinus2 = fnMinus1;
@@ -21,6 +21,6 @@ public class Fibonacci {
       }
        // Compute and display the average (=sum/nMax).
       // Beware that int/int gives int.
-
+System.out.println("Fib ="+ fnMinus1);
    }
 }
